@@ -13,7 +13,7 @@ export const UnAuthenticated = () => {
     return (
         <PaperProvider>
         <Stack.Navigator initialRouteName="Login" screenOptions={{headerShown: false}}>
-            <Stack.Screen name="Base" component={Base}/>
+            <Stack.Screen name="Login" component={LoginScreen}/>
         </Stack.Navigator>
     </PaperProvider>
         
